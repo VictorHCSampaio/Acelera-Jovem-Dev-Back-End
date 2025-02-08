@@ -273,7 +273,7 @@ CRUD desenvolvido utilizando **Node.js**, **Express** e **MongoDB** para gerenci
     ```
 ### **Deletar um usuário**
 
-<<<<<<< HEAD
+
 - **Método:** `DELETE`
 - **URL:** `http://localhost:8080/users/delete/{id}`
 
@@ -293,20 +293,3 @@ CRUD desenvolvido utilizando **Node.js**, **Express** e **MongoDB** para gerenci
         "message": "ID inválido" 
     }
     ```
-=======
-    Caso tente mudar a senha sem inserir a senha antiga:
-    Código de status: 400
-    Retorno (JSON): "A senha é necessária"
-
-*Deletar um usuário*
-
-    Verbo HTTP: DELETE
-    URL: http://localhost:8080/users/delete/{id}
-    ID encontrado:
-    Código de status: 200
-    Retorno (JSON): Usuário deletado com sucesso
-
-    ID não encontrado:
-    Código de status: 400
-    Retorno (JSON): ID inválido
->>>>>>> 4557a44bb238f3682047d71e502c3b22a8693ee2
